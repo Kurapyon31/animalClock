@@ -20,7 +20,7 @@
 
 .iframe-content {
   position: absolute;
-  top: 0;
+  top: 50;
   left: 0;
   width: 50%;
   height: 50%;
@@ -34,7 +34,7 @@
 .caption {
   position: relative;
   width: 100%;
-  top: 100;
+  top: 1000;
   left: 100;
 }
 
