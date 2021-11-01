@@ -1,43 +1,51 @@
 .wrapper {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  width: 60%;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 980px) {
-  .wrapper {
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
   }
-}
+  
+  @media screen and (max-width: 980px) {
+    .wrapper {
+      width: 100%;
+    }
+  }
+  
+  .iframe-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  
+  .iframe-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    
+    width: 800px;
+    height: 600px;
+  }
+  
+  
+  .video-content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
 
-.iframe-wrapper {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
-}
 
-.iframe-content {
-  position: absolute;
-  top: 50;
-  left: 0;
-  width: 50%;
-  height: 50%;
-}
-
-.video-content {
-  width: 100%;
-  height: auto;
-}
-
-.caption {
-  position: relative;
-  width: 100%;
-  top: 1000;
-  left: 100;
-}
-
-.go_app{
-  width: 50%
-}
+  .go_app{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
