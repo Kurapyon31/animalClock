@@ -32,7 +32,10 @@
 }
 
 .caption {
+  position: relative;
   width: 100%;
+  top: 100;
+  left: 100;
 }
 
 .go_app{
