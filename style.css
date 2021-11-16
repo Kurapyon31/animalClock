@@ -1,3 +1,8 @@
+body{
+  background-color: navajowhite;
+}
+
+
 .wrapper {
     flex-direction: column;
     align-items: center;
@@ -21,10 +26,12 @@
   .iframe-content {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 80%;
     
     width: 800px;
+    /*
     height: 600px;
+    */
   }
   
   
@@ -46,6 +53,14 @@
     flex-direction: column;
     align-items: center;
     display: flex;
-    width: 60%;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .go_app_inst{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 80%;
     margin: 0 auto;
   }
