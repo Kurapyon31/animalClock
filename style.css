@@ -2,6 +2,9 @@ body{
   background-color: navajowhite;
 }
 
+.instract .inst_pic{
+  width: 100%;
+}
 
 .wrapper {
     flex-direction: column;
